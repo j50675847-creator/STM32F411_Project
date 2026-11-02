@@ -13,10 +13,11 @@
 
 ## Firmware
 
+- Pinout & Configuration
 ![STM32F411 Setting](img/001.png "STM32F411 Setting")
-
+- Clock Configuration
 ![STM32F411 Setting](img/002.png "STM32F411 Setting")
-
+- Project manager
 ![STM32F411 Setting](img/003.png "STM32F411 Setting")
 
 ---
