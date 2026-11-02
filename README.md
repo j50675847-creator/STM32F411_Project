@@ -34,8 +34,8 @@
   }
   /* USER CODE END 3 */
 }
-```c
----
+```
+---c
 - LD2 1초 Delay
 ```   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
