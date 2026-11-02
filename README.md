@@ -58,3 +58,9 @@ npm install package-name
 > > 중첩된 인용문
 
 ---
+
+$E = mc^2$ (인라인)
+
+$$
+\sum_{i=1}^{n} x_i = x_1 + x_2 + ... + x_n
+$$
