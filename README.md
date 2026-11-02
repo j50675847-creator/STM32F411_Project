@@ -21,7 +21,7 @@
 ![STM32F411 Setting](img/003.png "STM32F411 Setting")
 
 ---
-```
+```c
 /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
@@ -32,7 +32,7 @@
   }
   /* USER CODE END 3 */
 }
-```
+```c
 ---
 - LD2 1초 Delay
 ```   /* Infinite loop */
