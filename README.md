@@ -340,5 +340,36 @@ I/O 포트가 아날로그 구성으로 설정된 경우:
 
 </details>
 
+---
+### 실습
+```c
+ /* USER CODE BEGIN 2 */
+int counter = 0;
+  /* USER CODE END 2 */
 
+  /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
+  while (1)
+  {
+    /* USER CODE END WHILE */
+	  counter++;
+    /* USER CODE BEGIN 3 */
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 1);
+	      HAL_Delay(1000);
+	      HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, 0);
+	      HAL_Delay(1000);
+	      /* USER CODE END 3 */
+	    }
+  }
+```
+---
+- GPIO 
+(img/상승.PNG)
+(img/상승 오실로.jpg)
+---
+---
+- GPIO 
+(img/하강.PNG)
+(img/하강 오실로.jpg)
+---
 
