@@ -362,6 +362,14 @@ int counter = 0;
 	    }
   }
 ```
+- GPIO6번 사용을 위해 EXPRESSION의 GPIOA에서 VLAUE 값 조정
+### MODER
+<img src="./img/841.png"> <br>
+
+### ODR
+<img src="./img/846.png"> <br>
+
+-두개의 데이터 시트를 이용해서 VALUE값 조정 아래의 사진들은 그 값들을 조정하고 osilloscope로 측정한 사진들이다.
 ---
 - GPIO 
 <img src="./img/상승.png"> <br>
