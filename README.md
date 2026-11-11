@@ -364,12 +364,12 @@ int counter = 0;
 ```
 ---
 - GPIO 
-(img/상승.PNG)
-(img/상승 오실로.jpg)
+![STM32F411 IDE](img/상승.PNG)
+![STM32F411_osilloscope](img/상승 오실로.jpg)
 ---
 ---
 - GPIO 
-(img/하강.PNG)
-(img/하강 오실로.jpg)
+![STM32F411_IDE](img/하강.PNG)
+![STM32F411_osilloscope](img/히강 오실로.jpg)
 ---
 
