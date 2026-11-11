@@ -375,10 +375,11 @@ int counter = 0;
 <img src="./img/846.png"> <br>
 
 
--두개의 데이터 시트를 이용해서 VALUE값 조정 아래의 사진들은 그 값들을 조정하고 osilloscope로 측정한 사진들이다.
+-두개의 데이터 시트를 이용해서 VALUE값 조정,  아래의 사진들은 그 값들을 조정하고 osilloscope로 측정한 사진들이다.
 
 
 ---
+-상승
 <img src="./img/상승.png"> <br>
 
 
@@ -388,6 +389,7 @@ int counter = 0;
 
 
 --- 
+-하강
 <img src="./img/하강.png"> <br>
 
 
