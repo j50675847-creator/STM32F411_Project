@@ -569,7 +569,7 @@ delay_us(200)으로 변경 후
 <summary> HC-SR04 초음파 센서를 이용한 PUTTY 출력 </summary>
 
 ---
-- ECHO1 설정을 위해 PA1를 GPIO input으로 pin 설정
+- ECHO1 설정을 위해 PA1을 GPIO input으로 pin 설정
 
 <img src="./img/ECHO1.png"> <br>
 
