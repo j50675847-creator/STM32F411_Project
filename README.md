@@ -496,16 +496,16 @@ void trig(void)
   /* USER CODE END 3 */
 }
 ```
-
-- HAL_Delay (1) 사용
+---
+HAL_Delay (1) 사용
 ---
 <img src="./img/HAL_Delay.jpg"> <br>
-
+- 원하는 주기가 제대로 나오지 않음.
 ---
 ---
 
-- delay_us(200)으로 변경후
+delay_us(200)으로 변경 후
 ---
 <img src="./img/delay_us.jpg"> <br>
-
+- 원하는 주기가 제대로 측정됨.
 ---
