@@ -518,7 +518,7 @@ delay_us(200)으로 변경 후
 
 - 먼저 F411 Board
   
-<img src="./img/F411_MCU_Core.png"> <br>
+<img src="./img/F411_Board.png"> <br>
 
 - 1. PA0에 초음파 센서 TRIG 연결
 - 2. PA1에 초음파 센서 ECHO 연결
@@ -530,13 +530,13 @@ delay_us(200)으로 변경 후
 ---
 - 초음파 센서 거리가 가까울때
 - 
-<img src="./img/F411_MCU_Core.png"> <br>
+<img src="./img/가까운 거리.jpg"> <br>
 
 ---
 
 ---
 - 초음파 센서 거리가 멀때
 - 
-<img src="./img/F411_MCU_Core.png"> <br>
+<img src="./img/먼 거리.jpg"> <br>
 
 ---
