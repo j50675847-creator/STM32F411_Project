@@ -539,6 +539,7 @@ delay_us(200)으로 변경 후
   
 <img src="./img/먼 거리.jpg"> <br>
 
+<details>
 ---
 
 ## 5-4 실습 4
@@ -591,9 +592,10 @@ while (1)
   	      }
   	      else printf("Out of Range!\n");
   	      HAL_Delay(1000);
-
+<details>
 ```
 
 <img src="./img/putty.jpg"> <br>
 
+<details>
 ---
