@@ -470,6 +470,10 @@ MCU Core (Cortex-M4) → Bus Matrix (AHB/APB1) → GPIOC 레지스터(SFR) → I
   </details>
 ---
 ## 5-2 실습 2
+<details>
+
+<summary> HC-SR04 초음파 센서 HAL_Delay / delay_us 차이 비교 </summary>
+
 ```c
 void trig(void)
 {
@@ -508,7 +512,8 @@ delay_us(200)으로 변경 후
 ---
 <img src="./img/delay_us.jpg"> <br>
 - 원하는 주기가 제대로 측정됨.
----
+</details>
+
 
 ---
 ## 5-3 실습 3
@@ -539,6 +544,7 @@ delay_us(200)으로 변경 후
   
 <img src="./img/먼 거리.jpg"> <br>
 
+</details>
 
 
 
@@ -550,7 +556,7 @@ delay_us(200)으로 변경 후
 ---
 - ECHO1 설정을 위해 PA1를 GPIO input으로 pin 설정
 
-<img src="./img/ECHO1.jpg"> <br>
+<img src="./img/ECHO1.png"> <br>
 
 ---
 
@@ -595,7 +601,7 @@ while (1)
 
 ```
 
-<img src="./img/putty.jpg"> <br>
+<img src="./img/putty.png"> <br>
 
-<details>
+</details>
 
