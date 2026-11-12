@@ -341,7 +341,7 @@ I/O 포트가 아날로그 구성으로 설정된 경우:
 </details>
 
 ---
-### 실습
+### 5. 실습
 ```c
  /* USER CODE BEGIN 2 */
 int counter = 0;
@@ -396,8 +396,10 @@ int counter = 0;
 <img src="./img/하강 오실로.jpg"> <br>
 
 ---
-## STM32 GPIO 동작 구조 (Cortex-M4 / GPIO → LD2)
+## 5-1 STM32 GPIO 동작 구조 (Cortex-M4 / GPIO → LD2)
+<details>
 
+<summary>STM32 동작 구조 </summary>
 <img src="./img/F411_MCU_Core.png"> <br>
 
 
@@ -465,5 +467,5 @@ MCU Core (Cortex-M4) → Bus Matrix (AHB/APB1) → GPIOC 레지스터(SFR) → I
 - `MODER`로 출력 모드를 먼저 설정하고, `ODR`/`BSRR`로 값을 출력
 - `BSRR`은 다른 비트에 영향 없이 특정 핀만 안전하게 제어 가능
 - 모든 주변장치 제어는 결국 **메모리 맵된 레지스터 읽기/쓰기**
-
+  
 ---
