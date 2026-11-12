@@ -540,3 +540,60 @@ delay_us(200)으로 변경 후
 <img src="./img/먼 거리.jpg"> <br>
 
 ---
+
+## 5-4 실습 4
+<details>
+
+<summary> HC-SR04 초음파 센서를 이용한 PUTTY 출력 </summary>
+
+---
+- ECHO1 설정을 위해 PA1를 GPIO input으로 pin 설정
+
+<img src="./img/ECHO1.jpg"> <br>
+
+---
+
+- ECHO1 선언
+
+```c
+uint32_t echo(void) {
+       uint32_t start_tick, start_time, end_time;
+
+       // ECHO HIGH 대기 (최대 10ms)
+       start_tick = HAL_GetTick();
+       while (HAL_GPIO_ReadPin(ECHO1_GPIO_Port, ECHO1_Pin) == GPIO_PIN_RESET) {
+           if ((HAL_GetTick() - start_tick) > 10) return 0;  // 10ms 초과 → 실패
+       }
+       start_time = __HAL_TIM_GET_COUNTER(&htim1);
+
+       // ECHO LOW 대기 (최대 30ms = HC-SR04 최대 측정 시간)
+       start_tick = HAL_GetTick();
+       while (HAL_GPIO_ReadPin(ECHO1_GPIO_Port, ECHO1_Pin) == GPIO_PIN_SET) {
+           if ((HAL_GetTick() - start_tick) > 30) return 0;  // 30ms 초과 → 범위 초과
+       }
+       end_time = __HAL_TIM_GET_COUNTER(&htim1);
+
+       return end_time - start_time;
+   }
+```
+---
+
+- HAL_Delay를 사용해서 PUTTY 화면에 천천히 출력
+
+```c
+while (1)
+    {
+  	  trig();
+  	      echo_time = echo();
+  	      if( echo_time != 0){
+  	          dist = (int)(17 * echo_time / 100);
+  	          printf("Distance = %d(mm)\n", dist);
+  	      }
+  	      else printf("Out of Range!\n");
+  	      HAL_Delay(1000);
+
+```
+
+<img src="./img/putty.jpg"> <br>
+
+---
