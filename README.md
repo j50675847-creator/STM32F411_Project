@@ -509,3 +509,34 @@ delay_us(200)으로 변경 후
 <img src="./img/delay_us.jpg"> <br>
 - 원하는 주기가 제대로 측정됨.
 ---
+
+---
+## 5-3 실습 3
+<details>
+
+<summary> HC-SR04 초음파 센서 </summary>
+
+- 먼저 F411 Board
+  
+<img src="./img/F411_MCU_Core.png"> <br>
+
+- 1. PA0에 초음파 센서 TRIG 연결
+- 2. PA1에 초음파 센서 ECHO 연결
+- 3. 3.3V에 초음파 센서 VCC 연결
+- 4. GND에 초음파 센서 GND 연결
+- 5. PA1 왼쪽 핀에 선 하나 더 연결 후 Oscilloscop의 프로브에 연결
+- 6. GND를 프로브의 악어클립에 연결 후 오실로스코프 측정
+
+---
+- 초음파 센서 거리가 가까울때
+- 
+<img src="./img/F411_MCU_Core.png"> <br>
+
+---
+
+---
+- 초음파 센서 거리가 멀때
+- 
+<img src="./img/F411_MCU_Core.png"> <br>
+
+---
