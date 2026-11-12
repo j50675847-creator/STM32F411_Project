@@ -519,7 +519,7 @@ delay_us(200)으로 변경 후
 ## 5-3 실습 3
 <details>
 
-<summary> HC-SR04 초음파 센서 </summary>
+<summary> HC-SR04 초음파 센서 oscilloscope 거리 비교 </summary>
 
 - 먼저 F411 Board
   
