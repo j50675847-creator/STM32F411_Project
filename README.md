@@ -498,12 +498,14 @@ void trig(void)
 ```
 
 - HAL_Delay (1) 사용
-오실로스코프 사진 
+---
+<img src="./img/HAL_Delay.jpg"> <br>
 
 ---
 ---
 
 - delay_us(200)으로 변경후
-오실로스코프 사진
+---
+<img src="./img/delay_us.jpg"> <br>
 
 ---
