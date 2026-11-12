@@ -469,3 +469,41 @@ MCU Core (Cortex-M4) → Bus Matrix (AHB/APB1) → GPIOC 레지스터(SFR) → I
 - 모든 주변장치 제어는 결국 **메모리 맵된 레지스터 읽기/쓰기**
   
 ---
+## 5-2 실습 2
+```c
+void trig(void)
+{
+   HAL_GPIO_WritePin(TRIGER1_GPIO_Port, TRIGER1_Pin, HIGH);
+   delay_us(10);
+   HAL_GPIO_WritePin(TRIGER1_GPIO_Port, TRIGER1_Pin, LOW);
+}
+```
+```c
+ /* USER CODE BEGIN 2 */
+  timer_start();
+  /* USER CODE END 2 */
+
+  /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
+  while (1)
+  {
+	  trig();
+	  delay_us(200);
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+  }
+  /* USER CODE END 3 */
+}
+```
+
+- HAL_Delay (1) 사용
+오실로스코프 사진 
+
+---
+---
+
+- delay_us(200)으로 변경후
+오실로스코프 사진
+
+---
