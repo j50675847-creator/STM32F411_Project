@@ -396,7 +396,7 @@ int counter = 0;
 <img src="./img/하강 오실로.jpg"> <br>
 
 ---
-## STM32 GPIO 동작 구조 (Cortex-M4 / GPIOC → LD2)
+## STM32 GPIO 동작 구조 (Cortex-M4 / GPIO → LD2)
 
 <img src="./img/F411_MCU_Core.png"> <br>
 
