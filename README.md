@@ -379,7 +379,7 @@ int counter = 0;
 
 
 ---
--상승
+- 상승
 <img src="./img/상승.png"> <br>
 
 
@@ -389,7 +389,7 @@ int counter = 0;
 
 
 --- 
--하강
+- 하강
 <img src="./img/하강.png"> <br>
 
 
