@@ -475,7 +475,7 @@ MCU Core (Cortex-M4) → Bus Matrix (AHB/APB1) → GPIOC 레지스터(SFR) → I
 
 <summary> HC-SR04 초음파 센서 </summary>
 
-<img src="./img/초음파 센서.png"> <br>
+<img src="./img/초음파 센서 .png"> <br>
 
 <img src="./img/초음파 센서 동작원리.png"> <br>
 
