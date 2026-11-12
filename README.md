@@ -469,7 +469,22 @@ MCU Core (Cortex-M4) → Bus Matrix (AHB/APB1) → GPIOC 레지스터(SFR) → I
 - 모든 주변장치 제어는 결국 **메모리 맵된 레지스터 읽기/쓰기**
   </details>
 ---
-## 5-2 실습 2
+
+## 5-2 HC-SR04 
+<details>
+
+<summary> HC-SR04 초음파 센서 </summary>
+
+<img src="./img/초음파 센서.png"> <br>
+
+<img src="./img/초음파 센서 동작원리.png"> <br>
+
+
+</details>
+
+
+---
+## 5-3 실습 2
 <details>
 
 <summary> HC-SR04 초음파 센서 HAL_Delay / delay_us 차이 비교 </summary>
@@ -516,7 +531,7 @@ delay_us(200)으로 변경 후
 
 
 ---
-## 5-3 실습 3
+## 5-4 실습 3
 <details>
 
 <summary> HC-SR04 초음파 센서 oscilloscope 거리 비교 </summary>
@@ -548,7 +563,7 @@ delay_us(200)으로 변경 후
 
 
 
-## 5-4 실습 4
+## 5-5 실습 4
 <details>
 
 <summary> HC-SR04 초음파 센서를 이용한 PUTTY 출력 </summary>
