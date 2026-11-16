@@ -1,3 +1,10 @@
+
+## VS CODE 실습 1
+<details>
+
+<summary> VS CODE 실습 1 </summary>
+
+```c
 #include <stdio.h>
 
 int add(int a, int b) // a와 b를 더하는 함수
@@ -22,6 +29,11 @@ int main(void)
     //printf("Cow\rW\a\n");
 
     //sum = add(10, 20);
+        return 0;
+}
+```
+</details>
+---
 
     return 0;
 } 
