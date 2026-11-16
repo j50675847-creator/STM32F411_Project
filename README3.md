@@ -281,3 +281,11 @@ int main(void)
 
 </details>
 
+
+## VS CODE 연산자 정리
+<details>
+
+<summary> VS CODE 연산자 정리 </summary>
+
+<img src="./img/연산자 정리.png"> <br>
+</details>
