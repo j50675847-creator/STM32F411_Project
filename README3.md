@@ -32,8 +32,9 @@ int main(void)
         return 0;
 }
 ```
-</details>
----
 
     return 0;
 } 
+</details>
+
+---
