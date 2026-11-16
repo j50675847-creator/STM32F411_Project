@@ -240,3 +240,44 @@ int main(void)
 - int(정수) 대신 float(실수)을 이용하기 위해 float 사용 
 </details>
 
+
+<details>
+
+<summary> VS CODE 실습 6-3 </summary>
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    int a, b;
+    int sum, sub, mul, inv, mod;
+    float div;
+
+    a = 10;
+    b = 20;
+    sum = a + b;
+    sub = a - b;
+    mul = a * b;
+    div = (float)a / b;
+    mod = a % b;
+    inv = -a;
+
+    printf("a :%d, b=%d\n", a, b);
+    printf("sum :%d\n", sum);
+    printf("sub :%d\n", sub);
+    printf("mul :%d\n", mul);
+    printf("inv :%d\n", inv);
+    printf("div :%f\n", div);
+    printf("mod :%d\n", mod);
+
+    printf("++a :%d\n", ++a);
+    printf("a++ :%d\n", a++);
+
+    return 0;
+}
+```
+<img src="./img/실습6-3.png"> <br>
+
+</details>
+
