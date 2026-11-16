@@ -319,6 +319,35 @@ int main(void)
 </details>
 
 ---
+
+## VS CODE 실습 8
+<details>
+
+<summary> VS CODE 실습 8 </summary>
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+
+    int a = 10;
+    double b = 3.4;
+
+    printf("int type size : %d Bytes\n", sizeof(a));
+    printf("idouble type size : %d Bytes\n", sizeof(b));
+    printf("int type 10 size : %d Bytes\n", sizeof(10));
+    printf("Result type size : %d Bytes\n", sizeof(1.5 + 3.4));
+    printf("char type size : %d Bytes\n", sizeof(char));
+
+    return 0;
+}
+```
+<img src="./img/실습8.png"> <br>
+
+</details>
+
+---
 ## VS CODE 과제 
 <details>
 
