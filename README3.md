@@ -290,7 +290,35 @@ int main(void)
 <img src="./img/연산자 정리.png"> <br>
 </details>
 
+---
+## VS CODE 실습 7
+<details>
 
+<summary> VS CODE 실습 7 </summary>
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    int a = 10;
+    int b = 12;
+
+    printf("a & b : %d\n", a & b);
+    printf("a ^ b : %d\n", a ^ b);
+    printf("a | b : %d\n", a | b);
+    printf("~a : %d\n", ~a);
+    printf("a << 1 : %d\n", a << 1);
+    printf("a >> 2 : %d\n", a >> 2);
+
+    return 0;
+}
+```
+<img src="./img/실습7.png"> <br>
+
+</details>
+
+---
 ## VS CODE 과제 
 <details>
 
