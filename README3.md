@@ -154,7 +154,7 @@ int main(void)
 
 }
 ```
-<img src="./img/실습4.png"> <br>
+<img src="./img/실습5.png"> <br>
 
 </details>
 
