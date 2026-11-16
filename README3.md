@@ -32,6 +32,8 @@ int main(void)
         return 0;
 }
 ```
+<img src="./img/실습1.png"> <br>
+
 </details>
 
 ---
@@ -58,6 +60,8 @@ int main(void)
     return 0;
 }
 ```
+<img src="./img/실습2.png"> <br>
+
 </details>
 
 ---
@@ -80,6 +84,8 @@ int main(void)
     return 0;
 }
 ```
+<img src="./img/실습3.png"> <br>
+
 </details>
 
 ---
@@ -107,6 +113,8 @@ int main(void)
 
 }
 ```
+<img src="./img/실습4.png"> <br>
+
 </details>
 
 ---
