@@ -132,24 +132,26 @@ int main(void)
 
 long unsigned int echo(void)
 {
-    long unsigned int echo;
+    long unsigned int echo_val = 0;
     unsigned char HAL_GPIO_ReadPin = 0;
     unsigned int TIM_COUNTER = 0;
 
-    while (HAL_GPIO_ReadPin == LOW) {}
-    TIM_COUNTER = 0;
-    while (HAL_GPIO_ReadPin == HIGH);
-    echo = TIM_COUNTER++;
-    if (echo >= 240 && echo <= 23000) return echo;
-    else return 0;
-}
+    while (HAL_GPIO_ReadPin == LOW) {}   /* 1) 상승(HIGH) 대기 */
+    TIM_COUNTER = 0;                        /* 2) 카운터 0 */
+    while (HAL_GPIO_ReadPin == HIGH) {    /* 3) 하강(LOW)까지 카운트 */
+        TIM_COUNTER++;
+    }
+    echo_val = TIM_COUNTER;                 /* 4) HIGH 유지 시간(us) */
 
+    if (echo_val >= 240 && echo_val <= 23000) return echo_val;
+    return 0;
+}
 int main(void)
 {
     while (1)
     {
         echo();
-        Sleep(1000);
+        //    Sleep(1000);
     }
 
 }
