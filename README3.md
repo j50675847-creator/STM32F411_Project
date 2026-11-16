@@ -340,4 +340,6 @@ int main(void)
 
 <img src="./img/라이징 에지 검출, 폴링 에지 검출 코드.png"> <br>
 
+- 처음은 0에서 시작 1로 올라가면 rising edge, 1인 상태에서 0을 입력하면 falling edge, -1 입력하면 종료
+- 마지막 a = b; 이 코드는 입력한 상태 유지
 </details>
