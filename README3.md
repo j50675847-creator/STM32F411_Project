@@ -237,5 +237,6 @@ int main(void)
 ```
 <img src="./img/실습6-2.png"> <br>
 
+- 정수 대신 실수를 이용하기 위해 float 사용 
 </details>
 
