@@ -294,7 +294,7 @@ int main(void)
 ## VS CODE 과제 
 <details>
 
-<summary> 라이징 에지 검출 / 폴링 에지 검출 코드 </summary>
+<summary> Rising Edge 검출 / Falling Edage 검출 코드 </summary>
 
 ```c
 #include <stdio.h>
