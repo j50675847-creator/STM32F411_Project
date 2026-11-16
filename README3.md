@@ -197,7 +197,7 @@ int main(void)
 ```
 <img src="./img/실습6.png"> <br>
 
-
+</details>
 ---
 <details>
 
@@ -235,5 +235,5 @@ int main(void)
 ```
 <img src="./img/실습6-2.png"> <br>
 
-
+</details>
 ---
