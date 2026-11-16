@@ -198,7 +198,9 @@ int main(void)
 <img src="./img/실습6.png"> <br>
 
 </details>
----
+
+
+
 <details>
 
 <summary> VS CODE 실습 6-2 </summary>
@@ -236,4 +238,4 @@ int main(void)
 <img src="./img/실습6-2.png"> <br>
 
 </details>
----
+
