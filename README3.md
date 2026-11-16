@@ -118,3 +118,44 @@ int main(void)
 </details>
 
 ---
+## VS CODE 실습 5
+<details>
+
+<summary> VS CODE 실습 5 </summary>
+
+```c
+#include <stdio.h>
+#include <windows.h>
+
+#define HIGH 1
+#define LOW 0
+
+long unsigned int echo(void)
+{
+    long unsigned int echo;
+    unsigned char HAL_GPIO_ReadPin = 0;
+    unsigned int TIM_COUNTER = 0;
+
+    while (HAL_GPIO_ReadPin == LOW) {}
+    TIM_COUNTER = 0;
+    while (HAL_GPIO_ReadPin == HIGH);
+    echo = TIM_COUNTER++;
+    if (echo >= 240 && echo <= 23000) return echo;
+    else return 0;
+}
+
+int main(void)
+{
+    while (1)
+    {
+        echo();
+        Sleep(1000);
+    }
+
+}
+```
+<img src="./img/실습4.png"> <br>
+
+</details>
+
+---
