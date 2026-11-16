@@ -32,9 +32,81 @@ int main(void)
         return 0;
 }
 ```
+</details>
+
+---
+
+
+## VS CODE 실습 2
+<details>
+
+<summary> VS CODE 실습 2 </summary>
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    printf("%d\n", 10);
+    printf("%lf\n", 3.4);
+    printf("%.1lf\n", 3.45);
+    printf("%.10lf\n", 3.4);
+
+    printf("%d + %d = %d\n", 10, 20, 10 + 20);
+    printf("%.1f - %.1f =  %.1f\n", 3.4, 1.2, 3.4 - 1.2);
 
     return 0;
-} 
+}
+```
+</details>
+
+---
+
+## VS CODE 실습 3
+<details>
+
+<summary> VS CODE 실습 3 </summary>
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    int a;
+
+    scanf_s("%d", &a); 
+    printf("input : %d\n", a);
+
+    return 0;
+}
+```
+</details>
+
+---
+---
+
+## VS CODE 실습 4
+<details>
+
+<summary> VS CODE 실습 4 </summary>
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+
+    int age;
+    double height;
+
+    printf("Please input your age and height:");
+    scanf_s("%d%lf", &age, &height);
+    printf("Your age :%d and height:%.1lfcm", age, height);
+
+    return 0;
+
+}
+```
 </details>
 
 ---
