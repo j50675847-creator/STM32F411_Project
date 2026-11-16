@@ -415,6 +415,8 @@ int main(void)
 ```
 <img src="./img/실습10.png"> <br>
 
+<img src="./img/실습10-1.png"> <br>
+
 </details>
 
 ---
