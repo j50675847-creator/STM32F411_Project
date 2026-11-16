@@ -199,3 +199,41 @@ int main(void)
 
 
 ---
+<details>
+
+<summary> VS CODE 실습 6-2 </summary>
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    int a, b;
+    int sum, sub, mul, inv, mod;
+    float div;
+
+    a = 10;
+    b = 20;
+    sum = a + b;
+    sub = a - b;
+    mul = a * b;
+    div = (float)a / b;
+    mod = a % b;
+    inv = -a;
+
+    printf("a :%d, b=%d\n", a, b);
+    printf("sum :%d\n", sum);
+    printf("sub :%d\n", sub);
+    printf("mul :%d\n", mul);
+    printf("inv :%d\n", inv);
+    printf("div :%f\n", div);
+    printf("mod :%d\n", mod);
+
+
+    return 0;
+}
+```
+<img src="./img/실습6-2.png"> <br>
+
+
+---
