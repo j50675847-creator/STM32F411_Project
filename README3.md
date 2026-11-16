@@ -289,3 +289,55 @@ int main(void)
 
 <img src="./img/연산자 정리.png"> <br>
 </details>
+
+
+## VS CODE 과제 
+<details>
+
+<summary> 라이징 에지 검출 / 폴링 에지 검출 코드 </summary>
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    int a = 0; 
+    int b = 0;
+
+    while (1)
+    {
+        printf("signal input (0 or 1, end -1) : ");
+        scanf_s("%d", &b);
+
+        if (b == -1)
+        {
+            break;
+        }
+
+        if (a == 0 && b == 1)
+        {
+            printf("--> rising edge (0 -> 1)\n");
+        }
+
+        else if (a == 1 && b == 0)
+        {
+            printf("--> falling edge (1 -> 0)\n");
+        }
+
+        else
+        {
+            printf("--> no signal  (%d -> %d)\n", a, b);
+        }
+
+        a = b;
+
+    }
+
+    return 0;
+}
+```
+
+
+<img src="./img/라이징 에지 검출, 폴링 에지 검출 코드.png"> <br>
+
+</details>
