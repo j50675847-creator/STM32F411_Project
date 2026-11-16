@@ -381,6 +381,43 @@ int main(void)
 </details>
 
 ---
+---
+
+## VS CODE 실습 10
+<details>
+
+<summary> VS CODE 실습 10 </summary>
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    int a = 0, b = 0;
+
+    if (a > 0)
+    {
+        b = 1;
+    }
+    else if (a == 0)
+    {
+        b = 2;
+    }
+    else
+    {
+        b = 3;
+    }
+
+    printf("b : %d\n", b);
+
+    return 0;
+}
+```
+<img src="./img/실습10.png"> <br>
+
+</details>
+
+---
 ## VS CODE 과제 
 <details>
 
