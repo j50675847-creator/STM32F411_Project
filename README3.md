@@ -169,7 +169,7 @@ int main(void)
 ## VS CODE 실습 6
 <details>
 
-<summary> VS CODE 실습 5 </summary>
+<summary> VS CODE 실습 6-1 </summary>
 
 ```c
 #include <stdio.h>
