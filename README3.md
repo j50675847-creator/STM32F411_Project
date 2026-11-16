@@ -420,6 +420,42 @@ int main(void)
 </details>
 
 ---
+<details>
+
+<summary> Verilog if 문 </summary>
+
+```c
+module five_input_logic (
+    input  wire [3:0] in0,
+    input  wire [3:0] in1,
+    input  wire [3:0] in2,
+    input  wire [3:0] in3,
+    input  wire [3:0] in4,
+    output reg  [3:0] maxv
+);
+    integer i;
+    reg [3:0] in_arr [0:4];
+
+    always @(*) begin
+        in_arr[0] = in0;
+        in_arr[1] = in1;
+        in_arr[2] = in2;
+        in_arr[3] = in3;
+        in_arr[4] = in4;
+
+        maxv = in_arr[0];
+        for (i = 1; i < 5; i = i + 1) begin
+            if (in_arr[i] > maxv)
+                maxv = in_arr[i];
+        end
+    end
+endmodule
+```
+<img src="./img/베릴로그.png"> <br>
+
+</details>
+
+---
 ## VS CODE 과제 
 <details>
 
