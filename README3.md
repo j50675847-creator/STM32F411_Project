@@ -288,6 +288,10 @@ int main(void)
 <summary> VS CODE 연산자 정리 </summary>
 
 <img src="./img/연산자 정리.png"> <br>
+
+<img src="./img/연산자 1.png"> <br>
+
+<img src="./img/연산자 2.png"> <br>
 </details>
 
 ---
