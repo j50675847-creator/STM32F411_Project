@@ -114,3 +114,59 @@ int main(void)
 
 ---
 
+---
+
+## VS CODE 함수문
+<details>
+
+<summary> VS CODE 함수문 </summary>
+
+```c
+#include <stdio.h>
+
+int sum(int x, int y);
+int sub(int x, int y);
+int mul(int x, int y);
+
+int main(void)
+{
+    int a = 10, b = 20;
+    int result;
+
+    result = sum(10, 20);
+    printf("result : %d\n", result);
+    result = sub(10, 20);
+    printf("result : %d\n", result);
+    result = mul(10, 20);
+    printf("result : %d\n", result);
+    return 0;
+}
+
+int sum(int x, int y)
+{
+    int temp;
+    temp = x + y;
+    return temp;
+
+}
+int sub(int x, int y)
+{
+    int temp;
+    temp = x - y;
+    return temp;
+
+}
+int mul(int x, int y)
+{
+    int temp;
+    temp = x * y;
+    return temp;
+
+}
+```
+<img src="./img/실습15.png"> <br>
+
+</details>
+
+---
+
