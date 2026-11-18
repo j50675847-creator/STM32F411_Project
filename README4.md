@@ -170,3 +170,34 @@ int mul(int x, int y)
 
 ---
 
+## VS CODE 1 ~ 10까지의 합 (재귀호출)
+<details>
+
+<summary> VS CODE 1 ~10까지의 합 (재귀호출) </summary>
+
+```c
+#include <stdio.h>
+
+int sum(int count);
+
+int main(void)
+{
+    int result;
+
+    result = sum(1);
+    printf("1 ~ 10 sum result : %d\n", result);
+
+    return 0;
+}
+
+int sum(int count)
+{
+    if (count == 10) return 10;
+    return count + sum(count + 1);
+}
+```
+<img src="./img/실습16.png"> <br>
+
+</details>
+
+---
