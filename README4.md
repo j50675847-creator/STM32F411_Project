@@ -86,3 +86,30 @@ int main(void)
 </details>
 
 ---
+
+---
+
+## VS CODE for 문 중첩
+<details>
+
+<summary> VS CODE for 문 중첩 </summary>
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    for (int a = 1; a < 10; a++) {
+        for (int b = 1; b < 10; b++) {
+            printf("%d * %d = %d\n", a, b, a * b);
+        }
+    }
+    return 0;
+}
+```
+<img src="./img/실습14.png"> <br>
+
+</details>
+
+---
+
