@@ -107,7 +107,8 @@ int main(void)
     return 0;
 }
 ```
-<img src="./img/실습14.png"> <br>
+<img src="./img/실습14-1.png"> <br>
+<img src="./img/실습14-2.png"> <br>
 
 </details>
 
