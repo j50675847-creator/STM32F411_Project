@@ -1,7 +1,7 @@
-## VS CODE 실습 11
+## VS CODE While 반복문
 <details>
 
-<summary> VS CODE 실습 11 </summary>
+<summary> VS CODE while 반복문 </summary>
 
 ```c
 #include <stdio.h>
@@ -23,6 +23,36 @@ int main(void)
 }
 ```
 <img src="./img/실습11.png"> <br>
+
+</details>
+
+---
+
+---
+
+## VS CODE for 반복문
+<details>
+
+<summary> VS CODE for 반복문 </summary>
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    int a = 1;
+    int i;
+
+    for (i = 0; i < 3; i++)
+    {
+        a = a * 2;
+    }
+    printf("a : %d\n", a);
+
+    return 0;
+}
+```
+<img src="./img/실습12.png"> <br>
 
 </details>
 
