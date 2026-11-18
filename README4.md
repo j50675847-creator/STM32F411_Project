@@ -57,3 +57,32 @@ int main(void)
 </details>
 
 ---
+
+---
+
+## VS CODE do ~ while 반복문
+<details>
+
+<summary> VS CODE do ~ while 반복문 </summary>
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    int a = 1;
+
+    do
+    {
+        a = a * 2;
+    } while (a < 10);
+    printf("a : %d\n", a);
+
+    return 0;
+}
+```
+<img src="./img/실습13.png"> <br>
+
+</details>
+
+---
