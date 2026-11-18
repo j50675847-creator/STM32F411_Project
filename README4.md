@@ -558,9 +558,13 @@ void Ultrasonic_OnEchoEdge(void);
 
 <summary> ultrasonic osilloscope 사진 </summary>
 
-
+- 정상 신호 확인
 <img src="./img/그냥 신호.jpg"> <br>
+---
+- 가까운 거리일때
 <img src="./img/가까운 신호.jpg"> <br>
+---
+- 거리가 멀때
 <img src="./img/먼 신호.jpg"> <br>
 
 </details>
