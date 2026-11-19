@@ -24,3 +24,21 @@
 </details>
 
 ---
+
+
+---
+## SWV / 트레이스 관찰 
+<details>
+
+<summary> SWV / 트레이스 관찰 </summary>
+
+
+<img src="./img/시리얼.png"> <br>
+<img src="./img/계단식 그래프.png"> <br>
+<img src="./img/시간 그래프 표시.png"> <br>
+
+
+  
+</details>
+
+---
